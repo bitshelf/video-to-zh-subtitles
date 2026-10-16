@@ -1,0 +1,34 @@
+English	中文建议	说明
+Device Tree	设备树	DT
+Device Tree binding	设备树绑定规范	DT binding
+Deferred probe	延迟探测	probe deferral
+Platform driver	平台驱动	
+IRQ	中断请求	保留 IRQ
+Threaded IRQ	线程化中断	
+Interrupt bottom half	中断下半部	
+Workqueue	工作队列	
+DMA mapping	DMA 映射	
+DMA coherent memory	DMA 一致性内存	不要省略平台约束
+Streaming DMA mapping	流式 DMA 映射	
+IOMMU	输入输出内存管理单元	保留 IOMMU
+Cache coherency	缓存一致性	
+Runtime PM	运行时电源管理	保留 Runtime PM
+System suspend	系统挂起	
+Hibernation	休眠到磁盘	区别 suspend
+Memory-mapped I/O	内存映射 I/O	MMIO
+Kernel preemption	内核抢占	
+PREEMPT_RT	实时抢占补丁/配置	不要改变宏名
+RPMsg	远程处理器消息传递	保留 RPMsg
+Remoteproc	远程处理器框架	保留 remoteproc
+USB Request Block	USB 请求块	URB
+Unsolicited Result Code	主动上报结果码	URC；蜂窝模组 AT 协议
+Error Correcting Code	纠错码	ECC
+Command Queueing Engine	命令队列引擎	CQE
+Embedded MultiMediaCard	嵌入式多媒体卡	eMMC
+Framebuffer	帧缓冲	
+Direct Rendering Manager	直接渲染管理器	DRM
+Kernel Mode Setting	内核模式设置	KMS
+D-Bus	D-Bus	保持名称
+Yocto Project	Yocto 项目	保留 Yocto
+Buildroot	Buildroot	保持名称
+inode	索引节点	保留 inode

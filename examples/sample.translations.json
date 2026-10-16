@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "text": "今天我们讨论 Linux 内核中的\n延迟探测（deferred probe）机制。"
+    },
+    {
+      "id": 2,
+      "text": "当依赖资源就绪时，驱动核心可以重新尝试探测。"
+    },
+    {
+      "id": 3,
+      "text": "可以检查设备树（Device Tree）\n和探测日志来排查这个问题。"
+    }
+  ],
+  "source_fingerprint": "9b13a41e043e73f5ff7cbf9393de64606c7e9eb07442dafc8b56e0f52df815b4"
+}
